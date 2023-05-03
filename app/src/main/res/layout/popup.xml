@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Base de Donnees"
+        android:textSize="15dp" />
+    <EditText
+        android:inputType="text"
+        android:id="@+id/databasename"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adresse IP"
+        android:textSize="15dp"
+        />
+    <EditText
+        android:inputType="text"
+        android:id="@+id/ipadd"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom d'utilisateur"
+        android:textSize="15dp"
+
+        />
+    <EditText
+        android:inputType="text"
+        android:id="@+id/username"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mot de passe"
+        android:textSize="15dp"
+
+        />
+    <EditText
+        android:inputType="text"
+        android:id="@+id/pwd"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PA"
+        android:textSize="15dp"
+        />
+    <CheckBox
+        android:id="@+id/checkbox"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom de Societe"
+        android:textSize="15dp" />
+    <EditText
+        android:inputType="text"
+        android:id="@+id/nom"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ICE"
+        android:textSize="15dp" />
+    <EditText
+        android:inputType="text"
+        android:id="@+id/ice"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SOUS TEXT"
+        android:textSize="15dp" />
+    <EditText
+        android:id="@+id/sous"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/conf"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="confirmer"/>
+
+    </GridLayout>
+
+</ScrollView>
